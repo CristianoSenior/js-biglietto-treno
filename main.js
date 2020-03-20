@@ -13,11 +13,11 @@ var costoBigliettoNormale = 0.21 * kmPercUtente;
 
 // Costo biglietto + sconto minorenni
 
-var costoBigliettoBaby = ( costoBigliettoNormale * 100 ) / 120;
+var costoBigliettoBaby = ( costoBigliettoNormale * 80 ) / 100;
 
 // Costo biglietto + sconto terzaetà
 
-var costoBigliettoSaggi = ( costoBigliettoNormale * 100 ) / 140;
+var costoBigliettoSaggi = ( costoBigliettoNormale * 60 ) / 100;
 
 console.log("età utente:" + etaUtente);
 console.log("km percorsi:" + kmPercUtente);
